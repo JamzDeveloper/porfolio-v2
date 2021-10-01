@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-shadow: rgba(0, 0, 0, 0.25);
+  --color-white: #fff;
+  --color-black: #0a0a17;
+  --color-blue-primary: #0a66c2;
+  --font-size-medium: 20px;
+  --font-size-big: 30px;
+  --font-size-project-card-title: 30px;
+  --font-size-project-card-description: 14px;
+  --font-size-project-card-button: 18px;
+  --project-card-width: 369px;
+  --project-card-height: 264px;
+  --font-size-mediun-mobile: 14px;
+  --font-size-big-mobile: 20px;
+  --color-background-primary: #ffffff;
+  --color-light-primary: #0a66c2;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #0a0a17;
+}

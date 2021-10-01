@@ -1,0 +1,19 @@
+.nav--container {
+  margin-top: -75px;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 75px;
+  box-shadow: 0px 4px 4px var(--color-shadow);
+  justify-content: space-between;
+  background-color: var(--color-background-primary);
+  font-weight: 500;
+  z-index: 100;
+}
+@media (max-width: 768px) {
+  .nav--container {
+    height: 45px;
+    width: 100vw;
+    margin-top: -45px;
+  } 
+}

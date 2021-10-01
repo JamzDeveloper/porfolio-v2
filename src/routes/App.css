@@ -1,0 +1,31 @@
+main {
+  margin-top: 75px;
+  padding: 0px 155px;
+  background-color: var(--color-background-primary);
+  color: var(--color-text-secondary);
+  transition: all 0.4s ease-in-out;
+}
+@media (max-width: 1040px) {
+  :root {
+  }
+  main {
+    display: block;
+    padding: 0px 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav--container {
+    top: 45px;
+  }
+  main {
+    /*  margin-top: 45px;*/
+    padding-top: 90px;
+    display: flex;
+  }
+}
+@media (max-width: 617px) {
+  main {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+/*subscribe*/
+.subscribe--container {
+  display: flex;
+  width: 250px;
+}
+.subscribe--container-button {
+  width: 78%;
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  font-size: var(--font-size-medium);
+  background: var(--color-light-primary);
+  color: var(--color-text-primary);
+  border-radius: 15px;
+}
+.subscribe--container-button:hover {
+  cursor: pointer;
+}
+.subscribe--container-button:active {
+  transform: scale(0.95);
+}
+@media (max-width: 768px) {
+ 
+  .subscribe--container-button {
+    padding: 0px;
+    width: 127px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: var(--font-size-mediun-mobile);
+    border-radius: 10px;
+  }
+}

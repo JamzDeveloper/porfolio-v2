@@ -1,0 +1,7 @@
+.notfount--container{
+    height: calc(100vh - 142px);
+}
+.notfount--container-animation{
+    height: calc(100vh - 142px);
+    padding: 0px;
+}

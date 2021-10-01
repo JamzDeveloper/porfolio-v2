@@ -1,0 +1,42 @@
+.carousel--container {
+  margin-top: 15px;
+  width: 80% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.glide__slides li {
+  padding: 20px 0;
+}
+.glide__arrows {
+  background: none;
+  padding: 0px 9px;
+  background-color: transparent;
+}
+.glide__arrow{
+background-color: transparent;
+cursor: pointer;
+}
+.glide__arrow button:active >svg{
+    transform: scale(0.5);
+}
+@media (max-width: 1000px) {
+  .carousel--container{
+    margin-top:  20px;
+    margin-bottom: 50px;
+  }
+  .glide__slides li{
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel--container {
+    width: 80vw !important;
+    margin-left: -70px
+  }
+  .glide__slides li{
+    padding: 0px 30px;
+  }
+}
