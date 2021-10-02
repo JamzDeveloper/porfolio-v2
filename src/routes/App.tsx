@@ -1,14 +1,13 @@
-
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import NavBar from "../components/navegation/NavBar";
 import { routes } from "./routes";
-import useWindowSize from '../hooks/useWindowSize';
 import NavBarMobile from "../components/navegationMobile/NavBarMobile";
+import useWindowSize from "../hooks/useWindowSize";
 
 import "./App.css";
 function App(): JSX.Element {
-  const { width } = useWindowSize()
+  const { width } = useWindowSize();
 
   return (
     <Router>
@@ -25,7 +24,7 @@ function App(): JSX.Element {
           ))}
         </Switch>
       </main>
-    { width<769? <NavBarMobile/>: <Footer />}
+      {width < 769 ? <NavBarMobile /> : <Footer />}
     </Router>
   );
 }

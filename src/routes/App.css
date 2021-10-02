@@ -6,8 +6,7 @@ main {
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 1040px) {
-  :root {
-  }
+ 
   main {
     display: block;
     padding: 0px 70px;

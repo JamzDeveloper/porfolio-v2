@@ -18,13 +18,11 @@ const Carousel = () => {
   );
   useEffect(() => {
     slider.mount();
-    return () => {
-      slider.destroy();
-    };
+    return () => slider.destroy();
   }, [slider]);
 
   useEffect(() => {
-    if (width < 1300 && width>1168) {
+    if (width < 1300 && width > 1168) {
       slider.update({
         perView: 2,
       });
