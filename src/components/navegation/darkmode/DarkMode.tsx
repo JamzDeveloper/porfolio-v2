@@ -17,6 +17,7 @@ type stylecss = {
       styleVariables.setProperty("--color-background-primary", "#0A0A17");
       styleVariables.setProperty("--color-text-secondary", "#ffffff");
       styleVariables.setProperty("--color-shadow", "rgba(155, 155, 155, 0.25)");
+    
       return;
     }
 

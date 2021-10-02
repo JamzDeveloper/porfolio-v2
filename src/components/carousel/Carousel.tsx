@@ -37,7 +37,7 @@ const Carousel = () => {
         });
       }
     }
-  }, [width]);
+  }, [slider, width]);
 
   return (
     <div className="main__glide carousel--container">

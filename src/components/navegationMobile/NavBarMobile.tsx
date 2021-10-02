@@ -4,18 +4,23 @@ import Acerca from "../../assets/components-svg/Acerca";
 import Challenges from "../../assets/components-svg/Challenges";
 import Blog from "../../assets/components-svg/Blog";
 import './NavBarMobile.css';
-const NavBarMobile = () => {
+import { useEffect } from 'react';
+
+
+const NavBarMobile = ():JSX.Element => {
+
+
   return (
     <nav className="navbar--mobile--container">
       <ul className="navbar--mobile-container-ul">
         <li>
           <Link to="/">
-            <Home />
+            <Home  color="#0a66c2"/>
           </Link>
         </li>
         <li>
           <Link to="/acerca">
-            <Acerca />
+            <Acerca color="#0a66c2" />
           </Link>
         </li>
         <li>
@@ -29,12 +34,12 @@ const NavBarMobile = () => {
         </li>
         <li>
           <Link to="/blog">
-            <Blog />
+            <Blog color="#0a66c2" />
           </Link>
         </li>
         <li>
           <Link to="/retos">
-            <Challenges />
+            <Challenges color="#0a66c2" />
           </Link>
         </li>
       </ul>
