@@ -42,7 +42,7 @@ const Carousel = () => {
   return (
     <div className="main__glide carousel--container">
       <div className="glide__arrows" data-glide-el="controls">
-        <button className="glide__arrow glide__arrow--left" data-glide-dir="<">
+        <button className="glide__arrow glide__arrow--left" data-glide-dir="<" type="button" aria-label="left-carousel">
           <ArrowLeft />
         </button>
       </div>
@@ -54,9 +54,69 @@ const Carousel = () => {
               title="Portafolio"
               img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
               technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
+              ]}
+              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
+              link="/"
+              repository="/"
+              home={true}
+            />
+          </li> <li className="glide__slide">
+            <Card
+              title="Portafolio"
+              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
+              technology={[
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
+              ]}
+              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
+              link="/"
+              repository="/"
+              home={true}
+            />
+          </li> <li className="glide__slide">
+            <Card
+              title="Portafolio"
+              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
+              technology={[
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
+              ]}
+              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
+              link="/"
+              repository="/"
+              home={true}
+            />
+          </li> <li className="glide__slide">
+            <Card
+              title="Portafolio"
+              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
+              technology={[
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
+              ]}
+              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
+              link="/"
+              repository="/"
+              home={true}
+            />
+          </li> <li className="glide__slide">
+            <Card
+              title="Portafolio"
+              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
+              technology={[
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
                 "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
               ]}
               description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
@@ -70,73 +130,9 @@ const Carousel = () => {
               title="Portafolio"
               img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
               technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
-              ]}
-              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
-              link="/"
-              repository="/"
-              home={true}
-            />
-          </li>
-          <li className="glide__slide">
-            <Card
-              title="Portafolio"
-              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
-              technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
-              ]}
-              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
-              link="/"
-              repository="/"
-              home={true}
-            />
-          </li>
-          <li className="glide__slide">
-            <Card
-              title="Portafolio"
-              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
-              technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
-              ]}
-              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
-              link="/"
-              repository="/"
-              home={true}
-            />
-          </li>
-          <li className="glide__slide">
-            <Card
-              title="Portafolio"
-              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
-              technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
-              ]}
-              description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
-              link="/"
-              repository="/"
-              home={true}
-            />
-          </li>
-          <li className="glide__slide">
-            <Card
-              title="Portafolio"
-              img="https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png"
-              technology={[
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852824/portafolio/version%201.0/assets/html_rjv64l.png",
-                "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852822/portafolio/version%201.0/assets/css-5_ddx6qq.svg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+               "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+                "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
                 "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg",
               ]}
               description="Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades"
@@ -149,7 +145,7 @@ const Carousel = () => {
       </div>
 
       <div className="glide__arrows" data-glide-el="controls">
-        <button className="glide__arrow glide__arrow--right" data-glide-dir=">">
+        <button className="glide__arrow glide__arrow--right" data-glide-dir=">" type="button" aria-label="right-carousel">
           <ArrowRight />
         </button>
       </div>
