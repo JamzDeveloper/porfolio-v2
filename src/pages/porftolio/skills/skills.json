@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg"
+  },
+  {
+    "title": "CSS",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg"
+  },
+  {
+    "title": "JavaScript",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/logo-javascript_giqnbx.svg"
+  },
+  {
+    "title": "React",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+  },
+  {
+    "title": "Next.js",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633329343/technologies/nextjs-logo_t1c8oy.svg"
+  },
+  {
+    "title": "TypeScript",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg"
+  },
+  {
+    "title": "Node.js",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633321397/technologies/nodejs-1_dstxls_o3r9ai.svg"
+  },
+  {
+    "title": "MySQL",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633321719/technologies/mysql-official_taks2t.svg"
+  },
+  {
+    "title": "Figma",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633321488/technologies/figma-1_etrjc9_btitva.svg"
+  }
+]

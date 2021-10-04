@@ -24,6 +24,10 @@
 .about--container--description-text div h2 {
   font-size: var(--font-size-medium-2);
   font-weight: bold;
+ 
+}
+.about--container--description-text h2,p{
+    margin-bottom: 15px;
 }
 .about--container--description-photo {
   background-color: #c4c4c4;
