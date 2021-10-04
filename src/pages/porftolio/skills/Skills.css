@@ -14,6 +14,7 @@
     font-size: var(--font-size-big);
     margin-bottom: 30px;
     margin-top: -10px;
+    -webkit-text-stroke: 1px black;
 
 }
 .about--container--skills div {
