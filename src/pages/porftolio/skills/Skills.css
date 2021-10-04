@@ -1,0 +1,24 @@
+.about--container--skills {
+  background-color: var(--color-blue-primary);
+  border-radius: 15px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0px;
+}
+.about--container--skills  h2{
+    color: var(--color-white);
+    font-size: var(--font-size-big);
+    margin-bottom: 30px;
+    margin-top: -10px;
+
+}
+.about--container--skills div {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+

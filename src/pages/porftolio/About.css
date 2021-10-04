@@ -1,0 +1,9 @@
+.view--about{
+    padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .view--about{
+        padding-top: 0px;
+    }
+}

@@ -1,9 +1,13 @@
-import React from "react";
+import Description from "./description/Descrption";
+import "./About.css";
+import Skills from "./skills/Skills";
 
 const About = () => {
   return (
-    <div className="about">
-      <h1>About</h1>
+    <div className="view--about">
+      <Description />
+      <Skills />
+      <div className="about--container--project"></div>
     </div>
   );
 };
