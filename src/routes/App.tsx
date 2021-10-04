@@ -4,9 +4,8 @@ import NavBar from "../components/navegation/NavBar";
 import { routes } from "./routes";
 import NavBarMobile from "../components/navegationMobile/NavBarMobile";
 import useWindowSize from "../hooks/useWindowSize";
-
-import "./App.css";
 import { ThemeProvider } from "../contexts/ThemeContext";
+import "./App.css";
 function App(): JSX.Element {
   const { width } = useWindowSize();
 
@@ -14,7 +13,7 @@ function App(): JSX.Element {
     <ThemeProvider>
       <Router>
         <NavBar />
-        <main>
+        <div className="main">
           <Switch>
             {routes.map((route) => (
               <Route
@@ -25,7 +24,7 @@ function App(): JSX.Element {
               />
             ))}
           </Switch>
-        </main>
+        </div>
         {width < 769 ? <NavBarMobile /> : <Footer />}
       </Router>
     </ThemeProvider>

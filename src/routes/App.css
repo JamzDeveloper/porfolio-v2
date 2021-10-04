@@ -1,4 +1,4 @@
-main {
+.main {
   margin-top: 75px;
   padding: 0px 155px;
   background-color: var(--color-background-primary);
@@ -7,7 +7,7 @@ main {
 }
 @media (max-width: 1040px) {
  
-  main {
+  .main {
     display: block;
     padding: 0px 70px;
   }
@@ -17,14 +17,14 @@ main {
   .nav--container {
     top: 45px;
   }
-  main {
+  .main {
     margin-top: 45px;
     padding-top: 90px;
     display: flex;
   }
 }
 @media (max-width: 617px) {
-  main {
+  .main {
     padding-top: 20px;
   }
 }

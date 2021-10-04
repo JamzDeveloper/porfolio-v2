@@ -1,3 +1,10 @@
-.footer{
-
+.footer {
+  background-color: var(--color-background-primary);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.footer h2 {
+  font-size: var(--font-size-medium);
+  color: var(--color-text-secondary);
 }

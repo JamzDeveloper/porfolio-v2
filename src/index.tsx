@@ -1,15 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React, { Suspense } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 //import 'normalize.css';
-import App from './routes/App';
-import reportWebVitals from './reportWebVitals';
+//import App from './routes/App';
+import reportWebVitals from "./reportWebVitals";
+const App = React.lazy(() => import("./routes/App"));
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={<div>Loading...</div>}>
+      <App />
+    </Suspense>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
