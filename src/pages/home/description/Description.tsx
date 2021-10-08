@@ -1,6 +1,7 @@
 //import Card from "../../../components/card/project/Card";
 import Carousel from "../../../components/carousel/Carousel";
 import { ReactTypical } from "@deadcoder0904/react-typical";
+import '@deadcoder0904/react-typical/dist/styles.min.css'
 import "./Description.css";
 const Description = () => {
   return (
