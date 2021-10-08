@@ -26,7 +26,11 @@ const Contact = () => {
               {ContactElement.map((element: LinkContact, index) => {
                 return (
                   <a key={index} href={element.href} target="__blank">
-                    <img title={element.title} src={element.icon} alt={element.alt}></img>
+                    <img
+                      title={element.title}
+                      src={element.icon}
+                      alt={element.alt}
+                    ></img>
                   </a>
                 );
               })}

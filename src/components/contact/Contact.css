@@ -41,6 +41,10 @@
   transition: all 500ms ease;
   transform: scale(1.5);
 }
+.about--container--contact--content-element img {
+  width: 41px;
+  height: 41px;
+}
 
 @media (max-width: 768px) {
   .about--container--contact--content-element {
@@ -48,5 +52,9 @@
   }
   .about--container--contact--content-element img:hover {
     transform: scale(1);
+  }
+  .about--container--contact--content-element img {
+    width: 35px !important;
+    height: 35px !important;
   }
 }
