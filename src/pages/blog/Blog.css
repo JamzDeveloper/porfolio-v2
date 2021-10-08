@@ -1,0 +1,10 @@
+.view--blog {
+  height: calc(100vh - 118px);
+
+}
+
+@media (max-width: 768px) {
+  .view--blog {
+    height: calc(100vh - 50px);
+  }
+}

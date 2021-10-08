@@ -1,13 +1,22 @@
+import React, { Suspense } from "react";
 import Description from "./description/Descrption";
+
+import Loading from "../../assets/animations/components/Loading";
 import "./About.css";
-import Skills from "./skills/Skills";
+
+const Skills = React.lazy(() => import("./skills/Skills"));
+const Project = React.lazy(() => import("./project/Project"));
 
 const About = () => {
   return (
     <div className="view--about">
       <Description />
-      <Skills />
-      <div className="about--container--project"></div>
+      <Suspense fallback={<Loading />}>
+        <Skills />
+      </Suspense>
+      <Suspense fallback={<Loading />}>
+        <Project />
+      </Suspense>
     </div>
   );
 };

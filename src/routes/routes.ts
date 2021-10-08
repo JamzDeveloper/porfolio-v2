@@ -2,7 +2,9 @@ import Blog  from "../pages/blog/Blog";
 import  Home from "../pages/home/Home";
 import NotFound  from "../pages/notfound/NotFound";
 import  About from "../pages/porftolio/About";
+import Challenges from "../pages/challenges/Challenges";
 import route from "../interfaces/route";
+
 
 export const routes: route[] = [
   {
@@ -26,7 +28,7 @@ export const routes: route[] = [
   {
     path: "/retos",
     name: "retos",
-    component: Blog,
+    component: Challenges,
     exact: true,
   },
   {

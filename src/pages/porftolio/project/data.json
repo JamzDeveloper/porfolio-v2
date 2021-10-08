@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Portafolio",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png",
+    "technology": [
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+    ],
+    "description": "Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades",
+    "link": "/",
+    "repository": "/",
+    "home": false
+  },
+  {
+    "title": "Portafolio",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png",
+    "technology": [
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+    ],
+    "description": "Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades",
+    "link": "/",
+    "repository": "/",
+    "home": false
+  },
+  {
+    "title": "Portafolio",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png",
+    "technology": [
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+    ],
+    "description": "Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades",
+    "link": "/",
+    "repository": "/",
+    "home": false
+  },
+  {
+    "title": "Portafolio",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png",
+    "technology": [
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+    ],
+    "description": "Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades",
+    "link": "/",
+    "repository": "/",
+    "home": false
+  },
+  {
+    "title": "Portafolio",
+    "img": "https://res.cloudinary.com/duhbmesjr/image/upload/v1620852825/portafolio/version%201.0/assets/img_portafolio_uoizev.png",
+    "technology": [
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273009/technologies/html-svg_nn8q2v.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633273222/technologies/css-svg_wtxhge.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1633272258/technologies/ts-logo-256_zvqnhj.svg",
+      "https://res.cloudinary.com/duhbmesjr/image/upload/v1620966625/portafolio/version%201.0/assets/react-2_eed3as.svg"
+    ],
+    "description": "Portafolio personal realizado de la mejor manera para mostrar mis proyecto y habilidades",
+    "link": "/",
+    "repository": "/",
+    "home": false
+  }
+]

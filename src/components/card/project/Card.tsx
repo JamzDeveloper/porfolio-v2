@@ -1,24 +1,18 @@
 import { useEffect, useState } from "react";
+import CardProject from "../../../interfaces/CardProject";
 import "./Card.css";
 
-type props = {
-  title: String;
-  img: String;
-  technology: Array<String>;
-  description: String;
-  link: String;
-  repository: String;
-  home: Boolean;
-};
 type stylecss = {
   setProperty: Function;
   getPropertyValue: Function;
 };
-const Card = (props: props): JSX.Element => {
+const Card = (props: CardProject): JSX.Element => {
   const { home } = props;
   const [description, setDescription] = useState<String>(props.description);
+
   useEffect(() => {
     const styleVariables: stylecss = document.documentElement.style;
+
     if (home) {
       setDescription("");
       styleVariables.setProperty("--project-card-width", "232px");
@@ -33,7 +27,13 @@ const Card = (props: props): JSX.Element => {
     }
   }, [home]);
   return (
-    <div className="card--project--container ">
+    <div
+      className={
+        props.classPerso
+          ? `card--project--container ${props.classPerso}`
+          : "card--project--container"
+      }
+    >
       <figure className="card--project-figure">
         <img
           className="card--project--img"

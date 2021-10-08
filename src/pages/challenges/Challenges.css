@@ -1,0 +1,10 @@
+.view--challenges{
+    height: calc(100vh - 118px);
+
+}
+
+@media (max-width: 768px) {
+    .view--challenges{
+        height: calc(100vh - 50px);
+    }
+}

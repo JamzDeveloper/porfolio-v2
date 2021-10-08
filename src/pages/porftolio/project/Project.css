@@ -1,0 +1,40 @@
+.about--container--project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.about--container--project h2{
+  font-size: var(--font-size-big);
+}
+.about--project--element {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about--project--element .card--project--container {
+  margin: 20px;
+}
+.about--project-card {
+  width: 400px;
+}
+@media (max-width: 768px) {
+  .about--project-card {
+    max-width: 250px;
+    max-height: 150px;
+  }
+
+  
+  .card--project--cloak-tech img {
+    object-fit: contain;
+  }
+  .about--project-card > .card--project--cloak-title {
+    font-size: var(--font-size-big-mobile);
+  }
+  .about--project-card .card--project--cloak-description {
+    font-size: 12px;
+    display: none !important;
+  }
+}

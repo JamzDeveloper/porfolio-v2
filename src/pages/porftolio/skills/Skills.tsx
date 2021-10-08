@@ -8,8 +8,8 @@ const Skills = (): JSX.Element => {
     <div className="about--container--skills">
       <h2>Habilidades</h2>
       <div>
-        {data.map((item) => (
-          <CardTechnology title={item.title} img={item.img} />
+        {data.map((item,index) => (
+          <CardTechnology key={index} title={item.title} img={item.img} />
         ))}
       </div>
     </div>
