@@ -1,7 +1,8 @@
 import React, { Suspense } from "react";
 import Description from "./description/Descrption";
-
 import Loading from "../../assets/animations/components/Loading";
+import Contact from "../../components/contact/Contact"
+
 import "./About.css";
 
 const Skills = React.lazy(() => import("./skills/Skills"));
@@ -17,6 +18,8 @@ const About = () => {
       <Suspense fallback={<Loading />}>
         <Project />
       </Suspense>
+      <Contact />
+      
     </div>
   );
 };
