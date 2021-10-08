@@ -4,6 +4,7 @@ type LinkContact = {
   href: string;
   icon: string;
   alt: string;
+  title: string;
 };
 
 const Contact = () => {
@@ -25,7 +26,7 @@ const Contact = () => {
               {ContactElement.map((element: LinkContact, index) => {
                 return (
                   <a key={index} href={element.href} target="__blank">
-                    <img src={element.icon} alt={element.alt}></img>
+                    <img title={element.title} src={element.icon} alt={element.alt}></img>
                   </a>
                 );
               })}

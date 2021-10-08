@@ -2,26 +2,32 @@
   {
     "href": "mailto:jamzdeveloper@gmail.com",
     "icon": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633719831/technologies/gmail_b7vqof.svg",
-    "alt": "Correo"
+    "alt": "Correo",
+    "title": "Correo"
   },
   {
     "href": "https://www.facebook.com/jose.zelada.123276/",
     "icon": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633719831/technologies/messenger_fqwqnb.svg",
-    "alt": "Facebook"
+    "alt": "Facebook",
+    "title": "Facebook"
   },
   {
     "href": "https://www.instagram.com/jamzdeveloper/?hl=es",
     "icon": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633719831/technologies/instagram_rabde0.svg",
-    "alt": "Instagram"
+    "alt": "Instagram",
+    "title": "Instagram"
   },
   {
     "href": "https://github.com/JamzDeveloper",
     "icon": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633719831/technologies/github_kqxfc6.svg",
-    "alt": "Github"
+    "alt": "Github",
+    "title": "Github"
   },
   {
     "href": "https://www.linkedin.com/in/jos%C3%A9-montenegro-b32321203/",
     "icon": "https://res.cloudinary.com/duhbmesjr/image/upload/v1633719831/technologies/linkedin_uqeiir.svg",
-    "alt": "Linkedin"
+    "alt": "Linkedin",
+    "title": "Linkedin"
+
   }
 ]
