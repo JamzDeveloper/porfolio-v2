@@ -18,9 +18,9 @@ const Contact = () => {
         <div className="about--container--contact--content">
           <div className="about--container--contact--content-text">
             <p>
-              es simplemente el texto de relleno de las imprentas y archivos de
-              texto. Lorem Ipsum ha sido el texto de relleno estándar de las
-              industrias desde el año 1500, cuando un impresor
+              Tiene algún proyecto en mente o deseas un aplicación para mejorar
+              y potenciar tu negocio? Contactame atrevés de las siguientes
+              método, responderé en le transcurso de 24 horas.
             </p>
             <div className="about--container--contact--content-element">
               {ContactElement.map((element: LinkContact, index) => {
