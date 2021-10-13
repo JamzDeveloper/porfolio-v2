@@ -1,0 +1,15 @@
+.home--content{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 10px;
+
+}
+@media (max-width: 768px) {
+    .home--content{
+        flex-direction: column;
+        height: 100%;
+    }
+}

@@ -19,8 +19,8 @@ const Contact = () => {
           <div className="about--container--contact--content-text">
             <p>
               Tiene algún proyecto en mente o deseas un aplicación para mejorar
-              y potenciar tu negocio? Contactame atrevés de las siguientes
-              método, responderé en le transcurso de 24 horas.
+              y potenciar tu negocio? Contactame atrevés de los siguientes
+              método, responderé tu solictud lo antes posible.
             </p>
             <div className="about--container--contact--content-element">
               {ContactElement.map((element: LinkContact, index) => {

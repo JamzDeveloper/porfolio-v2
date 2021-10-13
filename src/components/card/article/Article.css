@@ -1,0 +1,17 @@
+.proximante--card{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px var(--color-shadow);
+}
+
+@media (max-width: 768px) {
+    .proximante--card{
+        width: 220px;
+        height: 150px;
+    }
+}

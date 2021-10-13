@@ -4,12 +4,14 @@
   background-color: var(--color-background-primary);
   color: var(--color-text-secondary);
   transition: all 0.4s ease-in-out;
+  height: 100%;
 }
 @media (max-width: 1040px) {
  
   .main {
     display: block;
     padding: 0px 30px;
+    height: 100%;
   }
 }
 
@@ -21,6 +23,7 @@
     margin-top: 45px;
     padding-top: 90px;
     display: flex;
+    height: 100%;
   }
 }
 @media (max-width: 617px) {
