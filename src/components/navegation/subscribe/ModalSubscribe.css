@@ -1,0 +1,54 @@
+.subscribe--modal {
+  /*overflow: hidden;*/
+}
+.modal--conatiner--image {
+  background-color: #3490dc;
+  width: 100%;
+}
+
+.animation--subscribe--container-animation {
+  height: 210px;
+  width: 100%;
+}
+.modal--container-context {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+}
+
+.modal--form--subscribe {
+  display: flex;
+  justify-content: space-around;
+}
+.modal--form--subscribe input {
+  background-color: #b6d9fb;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.modal--from--subscribe-subtmit {
+  background-color: #499ff6;
+  width: 38px;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.animation--subscribe--party svg {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  left: 0px;
+  width: 80%;
+  pointer-events: none;
+  height: 100px;
+}
+
+.party--hide {
+  display: none;
+}

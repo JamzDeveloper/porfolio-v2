@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import Description from "./description/Descrption";
+import Description from "./description/PortfolioDescrption";
 import Loading from "../../assets/animations/components/Loading";
 import Contact from "../../components/contact/Contact"
 

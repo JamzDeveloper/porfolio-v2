@@ -1,4 +1,4 @@
-import "./Description.css";
+import "./PortfolioDescription.css";
 const Description = (): JSX.Element => {
   return (
     <div className="about--container--description">
