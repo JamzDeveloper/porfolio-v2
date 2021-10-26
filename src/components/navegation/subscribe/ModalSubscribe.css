@@ -52,3 +52,12 @@
 .party--hide {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .animation--subscribe--container-animation {
+    height: 160px;
+  }
+  .modal--container-context {
+    height: 180px;
+  }
+}
