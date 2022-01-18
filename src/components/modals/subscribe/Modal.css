@@ -9,6 +9,7 @@
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 2000;
 }
 
 .modal.is-open {
@@ -38,7 +39,7 @@
 }
 @media (max-width: 768px) {
   .modal-container {
-    
+
     min-width: 290px;
     max-width: 80px;
     min-height: 40px;
