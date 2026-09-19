@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad1)" rx="16" />
+  <rect x="0.5" y="0.5" width="799" height="499" rx="15.5" stroke="#3730A3" stroke-width="1" />
+  
+  <!-- Subtle auditorium / presentation lighting effect -->
+  <circle cx="400" cy="150" r="220" fill="#6366F1" opacity="0.12" filter="blur(60px)" />
+
+  <!-- Badge -->
+  <rect x="40" y="40" width="170" height="28" rx="14" fill="#4338CA" fill-opacity="0.5" stroke="#6366F1" stroke-width="1" />
+  <text x="125" y="58" fill="#C7D2FE" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">CONFERENCIA &amp; SPEAKER</text>
+
+  <!-- Speaker Icon Graphic -->
+  <circle cx="400" cy="200" r="50" fill="#1E1B4B" stroke="#818CF8" stroke-width="2" />
+  <!-- Microphone SVG path -->
+  <path d="M 392 180 A 8 8 0 0 1 408 180 L 408 200 A 8 8 0 0 1 392 200 Z" fill="#A5B4FC" />
+  <path d="M 386 195 A 14 14 0 0 0 414 195" stroke="#A5B4FC" stroke-width="2" fill="none" stroke-linecap="round" />
+  <line x1="400" y1="209" x2="400" y2="225" stroke="#A5B4FC" stroke-width="2" />
+  <line x1="390" y1="225" x2="410" y2="225" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Content -->
+  <text x="400" y="300" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Expotive UNT: Ponencia Magistral de Ingeniería</text>
+  <text x="400" y="335" fill="#A5B4FC" font-family="monospace" font-size="14" text-anchor="middle">Universidad Nacional de Trujillo · Auditorio Central</text>
+  
+  <rect x="250" y="365" width="300" height="36" rx="8" fill="#0C0E18" stroke="#333950" />
+  <text x="400" y="388" fill="#FBBF24" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">🏆 Ganador 1er Puesto Desarrollo de Software</text>
+
+  <text x="400" y="440" fill="#94A3B8" font-family="sans-serif" font-size="12" text-anchor="middle">Exposición sobre arquitecturas de software modernas, diseño de servicios y desarrollo ágil.</text>
+</svg>
