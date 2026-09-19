@@ -13,7 +13,7 @@ export function TrustBar() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2 text-zinc-400 font-mono text-xs uppercase tracking-widest whitespace-nowrap">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Sistemas & Clientes de Confianza:</span>
+            <span>Plataformas & Ecosistemas donde he contribuido:</span>
           </div>
 
           <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-8 gap-y-4">

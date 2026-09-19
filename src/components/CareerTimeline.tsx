@@ -39,7 +39,7 @@ export function CareerTimeline() {
     },
     { 
       id: "consulting", 
-      label: "Consultoría & Clientes Top (Yape, Bancolombia, KasNet)", 
+      label: "Consultoría Enterprise (Asignado a Yape, Bancolombia, KasNet)", 
       count: careerTimeline.filter(i => i.isConsultingAssignment).length, 
       icon: Building2 
     },

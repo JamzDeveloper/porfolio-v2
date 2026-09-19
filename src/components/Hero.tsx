@@ -98,7 +98,7 @@ export class AgentOrchestrationEngine {
 
             {/* Subtitle understandable by EVERY human */}
             <p className="text-base sm:text-lg text-zinc-300 leading-relaxed max-w-2xl font-normal">
-              Ayudo a <strong className="text-white">empresas, reclutadores y startups</strong> a hacer realidad productos digitales rápidos, seguros y diseñados para crecer. Con experiencia comprobada en ingeniería de misión crítica para <strong className="text-emerald-400">Yape</strong>, <strong className="text-white">Bancolombia</strong> y <strong className="text-white">KasNet</strong>.
+              Ayudo a <strong className="text-white">empresas, reclutadores y startups</strong> a hacer realidad productos digitales rápidos, seguros y diseñados para crecer. Con experiencia comprobada en equipos de ingeniería para plataformas de misión crítica como <strong className="text-emerald-400">Yape</strong> (vía Arkano), <strong className="text-white">Bancolombia</strong> (vía PRAGMA) y <strong className="text-white">KasNet</strong> (vía QDS).
             </p>
 
             {/* CTAs */}
@@ -250,7 +250,7 @@ export class AgentOrchestrationEngine {
                       <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-white block font-medium">Sistemas que Nunca se Caen:</strong>
-                        <span>Experiencia en Yape, Bancolombia y KasNet garantizando que las apps funcionen 24/7 sin caídas.</span>
+                        <span>Experiencia en equipos de ingeniería para Yape, Bancolombia y KasNet garantizando que las apps funcionen 24/7 sin caídas.</span>
                       </div>
                     </li>
 
