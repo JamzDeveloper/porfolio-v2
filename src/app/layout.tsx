@@ -15,6 +15,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jamzdeveloper.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: "José Montenegro Zelada | Senior Backend Engineer, Tech Lead & AI Architect",
   description: "Senior Backend Engineer & Tech Lead especializado en sistemas distribuidos de alta concurrencia (Yape, Bancolombia, KasNet), arquitecturas serverless en AWS y orquestación de Agentes de IA en tiempo real (AgenteCore). Consultoría técnica y mentoría.",
   keywords: [
